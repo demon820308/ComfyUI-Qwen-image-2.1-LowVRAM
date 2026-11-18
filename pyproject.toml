@@ -1,0 +1,19 @@
+[project]
+name = "comfyui-qwen-image-21-lowvram"
+version = "0.1.0"
+description = "Low-VRAM and 16GB-RAM optimization node for ComfyUI native Qwen-Image-2.1 (chunked SwiGLU FFN, head-chunked Attention, prefix KV cache control, and memory cleanup)."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = []
+classifiers = ["Operating System :: OS Independent"]
+
+[project.urls]
+Repository = "https://github.com/demon820308/ComfyUI-Qwen-image-2.1-LowVRAM"
+Issues = "https://github.com/demon820308/ComfyUI-Qwen-image-2.1-LowVRAM/issues"
+
+[tool.comfy]
+PublisherId = "demon820308"
+DisplayName = "Qwen Image 2.1 Low VRAM"
+Icon = ""
+requires-comfyui = ">=0.37.0"
